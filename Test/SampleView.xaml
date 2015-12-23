@@ -1,0 +1,21 @@
+﻿<UserControl x:Class="Test.SampleView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             mc:Ignorable="d"
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid>
+        <TextBlock TextWrapping="Wrap" Margin="5">
+            <![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut gravida dolor vitae aliquam suscipit. Proin placerat lobortis porttitor. Donec viverra sodales dictum. Maecenas ac erat eget enim commodo pharetra. Duis in enim suscipit, pellentesque sem eget, vulputate turpis. Duis ac lacinia arcu. Curabitur arcu ante, vehicula sit amet justo ut, ultricies tincidunt neque. Mauris leo metus, pulvinar nec molestie sit amet, egestas eu magna. Integer accumsan nulla vel arcu ultricies rhoncus.
+
+            In erat eros, commodo in rutrum ac, lobortis ac nunc. Suspendisse ut urna a libero ultricies condimentum. Curabitur pretium sapien in porttitor maximus. Phasellus sit amet dolor in lectus consequat placerat quis et nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam efficitur consequat nulla, a pellentesque nulla semper a. Pellentesque pretium pretium iaculis. Sed id lacus sit amet mauris pulvinar ornare. Suspendisse aliquam elementum tristique. In tempus tristique arcu, consectetur varius nibh vestibulum et. Duis blandit vehicula felis eu eleifend. Mauris sit amet lacus sed mi venenatis porttitor. Quisque nec ullamcorper felis. Nullam in metus ac lorem semper consectetur eu vel nisl. Aenean bibendum tortor nulla, in consequat orci fermentum posuere.
+
+            Nullam augue tellus, vulputate eu ipsum at, pharetra elementum sem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras est augue, rutrum id orci nec, ultricies ultrices ante. Maecenas tempor lobortis ipsum non pretium. Nunc ut fermentum ante, fermentum vestibulum mi. Donec consectetur dapibus tellus vitae fermentum. Sed ut ullamcorper ex. Vestibulum orci quam, rhoncus ut mollis sed, pulvinar ut orci. Aenean scelerisque sed elit id lobortis.
+
+            Nulla vel justo nunc. Proin sem justo, eleifend id justo ut, gravida malesuada lectus. Nullam ullamcorper felis in orci fermentum, eu porttitor erat hendrerit. Nunc mollis quam ac placerat posuere. Pellentesque convallis urna id lobortis sagittis. Nullam eleifend tellus et turpis porttitor pellentesque. Nulla et metus risus. In aliquam eleifend ultricies.
+
+            Vivamus quis scelerisque metus. Etiam facilisis luctus ipsum, vitae tincidunt sem consectetur eget. Aliquam at tempus tellus. Mauris vitae tristique urna. Vivamus ac tortor nec augue mattis consectetur at sed neque. In tempus laoreet arcu in tempus. Sed ut nunc id massa varius ornare. Integer in varius tellus. Integer sit amet risus cursus, elementum lacus at, semper ligula. Fusce lacus turpis, malesuada sit amet odio vel, tempus sodales tortor.]]>
+        </TextBlock>
+    </Grid>
+</UserControl>

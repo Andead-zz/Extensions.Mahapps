@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extensions.Mahapps", "Extensions.Mahapps\Extensions.Mahapps.csproj", "{97F291DD-CB8A-484A-AA2F-D625C32560F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{9231FCC7-29B0-4FF6-8F5D-BDAC145F0F7F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97F291DD-CB8A-484A-AA2F-D625C32560F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97F291DD-CB8A-484A-AA2F-D625C32560F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97F291DD-CB8A-484A-AA2F-D625C32560F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97F291DD-CB8A-484A-AA2F-D625C32560F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9231FCC7-29B0-4FF6-8F5D-BDAC145F0F7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9231FCC7-29B0-4FF6-8F5D-BDAC145F0F7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9231FCC7-29B0-4FF6-8F5D-BDAC145F0F7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9231FCC7-29B0-4FF6-8F5D-BDAC145F0F7F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
