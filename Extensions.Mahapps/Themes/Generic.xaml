@@ -1,0 +1,32 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:Extensions.Mahapps">
+    <Style TargetType="{x:Type local:ScrollableDialogWindow}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type local:ScrollableDialogWindow}">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+
+                        <ContentControl Content="{TemplateBinding Content}" />
+
+                        <StackPanel
+                            Grid.Row="1"
+                            Orientation="Horizontal">
+                            <StackPanel.Resources>
+                                <ResourceDictionary
+                                    Source="pack://application:,,,/MahApps.Metro;component/Styles/FlatButton.xaml" />
+                            </StackPanel.Resources>
+                            <Button Content="{TemplateBinding DefaultButtonContent}" IsDefault="True" />
+                            <Button Content="{TemplateBinding CancelButtonContent}" IsCancel="True" />
+                        </StackPanel>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>

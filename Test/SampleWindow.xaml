@@ -1,9 +1,9 @@
-﻿<mahapps:ScrollableWindow
+﻿<mahapps:ScrollableDialogWindow
     x:Class="Test.SampleWindow"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="clr-namespace:Test"
-    xmlns:mahapps="clr-namespace:Andead.Controls.Mahapps;assembly=Extensions.Mahapps"
+    xmlns:mahapps="clr-namespace:Extensions.Mahapps;assembly=Extensions.Mahapps"
     Title="Test" Height="300" Width="400" SizeToContent="Height">
     <local:SampleView />
-</mahapps:ScrollableWindow>
+</mahapps:ScrollableDialogWindow>
